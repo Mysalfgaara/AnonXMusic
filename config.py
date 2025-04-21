@@ -8,7 +8,7 @@ load_dotenv()
 
 # Get this value from my.telegram.org/apps
 API_ID = int(getenv("API_ID", "20886171"))
-API_HASH = getenv("9659476a2f6782e362bd00bac2096bdc")
+API_HASH = getenv("API_HASH", "9659476a2f6782e362bd00bac2096bdc")
 
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("8011867852:AAGGNevpwII9RdUHRaMm_DfUAor6ExF_osU")
@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("-1002566763639", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("7809385991", 1356469075))
+OWNER_ID = int(getenv("7809385991", "7639271205"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("BQE-spsAb_OT2PhzPqbbjIuW1NIBRrk6oS33uArM8ybARvxEvM9-gGzYonJ3TURSCgwps07Da-7-J5u8NBVtPo0lFCkg3YyoU-LaTKziFiVoUy_E87NNbwTNX6NcX6c7QTudthlR-keR3g3XI6eo5lBNLxgEVYm8_ApXI4AkmMGzmM-DBGFLszrdN6Z6MrQ5eTQa1bmcIIBiJStu2lx6ortL_yIHegUhREkpcZLaQXniLRXXleLtRAWr681rsAVmdrUYhhdyNhWhMWiR0t70metn4OSTkdRmplHtSysX-gKCkTdtZn-zPNbvdfnruJMqnEhOqdds6XruOF2oCx8_T7RtVsj4yQAAAAFvWoNnAA", None)
+STRING1 = getenv("STRING_SESSION2", "BQE-spsAb_OT2PhzPqbbjIuW1NIBRrk6oS33uArM8ybARvxEvM9-gGzYonJ3TURSCgwps07Da-7-J5u8NBVtPo0lFCkg3YyoU-LaTKziFiVoUy_E87NNbwTNX6NcX6c7QTudthlR-keR3g3XI6eo5lBNLxgEVYm8_ApXI4AkmMGzmM-DBGFLszrdN6Z6MrQ5eTQa1bmcIIBiJStu2lx6ortL_yIHegUhREkpcZLaQXniLRXXleLtRAWr681rsAVmdrUYhhdyNhWhMWiR0t70metn4OSTkdRmplHtSysX-gKCkTdtZn-zPNbvdfnruJMqnEhOqdds6XruOF2oCx8_T7RtVsj4yQAAAAFvWoNnAA ")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
