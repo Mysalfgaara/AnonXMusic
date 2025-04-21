@@ -1,4 +1,4 @@
-from AnonXMusic.core.bot import Anony
+from AnonXMusic.core.bot import Anon
 from AnonXMusic.core.dir import dirr
 from AnonXMusic.core.git import git
 from AnonXMusic.core.userbot import Userbot
